@@ -54,3 +54,15 @@ variable "database_route_table_tags" {
 variable "database_group_tags" {
   default = {}
 }
+variable "is_peering_required" {
+  default = false
+}
+variable "selector_vpc_id" {
+
+}
+variable "default_route_table_id" {
+  
+}
+variable "default_vpc_cidr" {
+  
+}
